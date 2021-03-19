@@ -10,8 +10,8 @@
 
 <br/><br/>
 #### NOTE:
-<p>After starting this concept I found that an individual had already made a Baker's Percent Formula Convertor on Google Play.</p>
-<sub>https://play.google.com/store/apps/details?id=com.gmail.flower.rouge.beautiful.bakerspercent&hl=en_US&gl=US</sub>
+<p>After starting this concept I found that an individual had already made a Baker's Percent Formula Convertor on Google Play.<br/>
+<sub>https://play.google.com/store/apps/details?id=com.gmail.flower.rouge.beautiful.bakerspercent&hl=en_US&gl=US</sub></p>
 
 <br/>
 <p>I contacted them via Twitter and email and from Twiiter I got the go-ahead to do my own thing with it (but I told them I would give them a mention as they requested).</p>
