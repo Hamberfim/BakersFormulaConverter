@@ -17,3 +17,6 @@ Tue 9:35 AM (03/16/2021)</p>
 Yesterday, 7:31 PM (03/18/2021)</p>
 
 <p>"Hi Tok, thanks. If I release a public version I will give you a mention/credit." (03/19/2021)</p>
+<br/>
+
+![Alt](https://github.com/Hamberfim/BakersFormulaConverter/blob/main/Tok_BakersFormula.png "Screenshot of conversation")
