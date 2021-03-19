@@ -22,6 +22,6 @@
 
 * <p>"Hi Tok, thanks. If I release a public version I will give you a mention/credit." (03/19/2021)</p>
 <hr>
-
 <br/>
+
 ![Alt](https://github.com/Hamberfim/BakersFormulaConverter/blob/main/Tok_BakersFormula.png "Screenshot of conversation")
