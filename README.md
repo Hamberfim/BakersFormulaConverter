@@ -10,9 +10,9 @@
 
 <br/><br/>
 #### NOTE:
-<p>After starting this concept I found that an individual had already made a Baker's Percent Formula Convertor on Google Play.<br/>
+<p>After starting this concept I found that an individual by the name of 'Tok' had already made a Baker's Percent Formula Convertor on Google Play.<br/>
 <sub>https://play.google.com/store/apps/details?id=com.gmail.flower.rouge.beautiful.bakerspercent&hl=en_US&gl=US</sub></p>
-<p>I contacted them via Twitter and email and got a response from them on Twitter. I got the go-ahead to do my own thing with it (but I told them I would give them a mention as they requested. See screen shots below).</p>
+<p>I contacted Tok via Twitter and email( beautiful(dot)rouge(dot)flower(at)gmail(dot)com ) and got a response from them on Twitter. I got the go-ahead to do my own thing with it (but I told them I would give them a mention as they requested. See screen shots below).</p>
 <br/>
 <hr>
 
