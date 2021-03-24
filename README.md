@@ -13,7 +13,7 @@
 #### Exception Handling:
 ![Alt](https://github.com/Hamberfim/BakersFormulaConverter/blob/main/BakersPercentages/ScreenshotException.png "Exception Handling")
 
-<br/><br/>
+<br/><br/><br/><br/>
 #### NOTE:
 <p>After starting this concept I found that an individual by the name of 'Tok' had already made a Baker's Percent Formula Convertor on Google Play.<br/>
 <sub>https://play.google.com/store/apps/details?id=com.gmail.flower.rouge.beautiful.bakerspercent&hl=en_US&gl=US</sub></p>
