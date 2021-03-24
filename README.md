@@ -1,6 +1,11 @@
 ### Baker's Formula Converter
 ⚡ Convert Baker's Volume Percent Formulas to usable (weight in grams) recipes. <br/>
 
+#### New Features(03/2021):
+![Alt](https://github.com/Hamberfim/BakersFormulaConverter/blob/defaultRecipes-BakersFormulaConverter/BakersPercentages/NewFeatures1.png "New Features") <br/>
+![Alt](https://github.com/Hamberfim/BakersFormulaConverter/blob/defaultRecipes-BakersFormulaConverter/BakersPercentages/NewFeaturesSelectSourBag1.png "Formula Selection") <br/>
+![Alt](https://github.com/Hamberfim/BakersFormulaConverter/blob/defaultRecipes-BakersFormulaConverter/BakersPercentages/NewFeaturesHelpAboutMenu1.png "About Copyright") <br/>
+
 #### Calculation:
 ![Alt](https://github.com/Hamberfim/BakersFormulaConverter/blob/main/BakersPercentages/ScreenshotCalculated.png "Calculation")
 

@@ -120,7 +120,7 @@
   <data name="lblDescription.Text" xml:space="preserve">
     <value>Baker's percentages are a way to express the proportion of each ingredient relative to the total flour weight used in a recipe. *The flour weight is always expressed as 100%. The calculations are to divide the ingredient percentage by 100 to obtain a decimal, then multiply the resulting decimal by the weight of the flour. </value>
   </data>
-  <data name="label16.Text" xml:space="preserve">
-    <value>A Basic Pizza Dough Formula of Flour(100%), Water(69.1%), Salt(2.2%), Yeast(0.5%). If we assume we need *500grams of flour to make a couple of small pizzas we calculate the weights of each of the additional ingredients like this, Water: 69.1% divided by 100 = 0.691 * 500 = 345.5g water, Salt: 2.2% divided by 100 = 0.022 * 500 = 11.0g salt, Yeast: 0.5 divided by 100 = 0.005 * 500 = 2.5g yeast. </value>
-  </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>
