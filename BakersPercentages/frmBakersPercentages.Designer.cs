@@ -73,15 +73,33 @@ namespace BakersPercentages
             this.lblDescription = new System.Windows.Forms.Label();
             this.lblEqual = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
+            this.rdoNapolitanoRecipe = new System.Windows.Forms.RadioButton();
+            this.rdoPainaLAncienne = new System.Windows.Forms.RadioButton();
+            this.rdoSourdoughBaguettes = new System.Windows.Forms.RadioButton();
+            this.lblTitleSelectFormulas = new System.Windows.Forms.Label();
+            this.lblTitleAboutFormulas = new System.Windows.Forms.Label();
+            this.lblHRdivider = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.btnSelectFormula = new System.Windows.Forms.Button();
+            this.rdoCiabatta = new System.Windows.Forms.RadioButton();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblFlour
             // 
             this.lblFlour.AutoSize = true;
-            this.lblFlour.Location = new System.Drawing.Point(23, 94);
+            this.lblFlour.Location = new System.Drawing.Point(14, 114);
             this.lblFlour.Name = "lblFlour";
             this.lblFlour.Size = new System.Drawing.Size(137, 13);
             this.lblFlour.TabIndex = 0;
@@ -89,7 +107,7 @@ namespace BakersPercentages
             // 
             // txtEnterFlour
             // 
-            this.txtEnterFlour.Location = new System.Drawing.Point(159, 90);
+            this.txtEnterFlour.Location = new System.Drawing.Point(150, 110);
             this.txtEnterFlour.Name = "txtEnterFlour";
             this.txtEnterFlour.ReadOnly = true;
             this.txtEnterFlour.Size = new System.Drawing.Size(100, 20);
@@ -101,7 +119,7 @@ namespace BakersPercentages
             // lblWater
             // 
             this.lblWater.AutoSize = true;
-            this.lblWater.Location = new System.Drawing.Point(114, 130);
+            this.lblWater.Location = new System.Drawing.Point(105, 150);
             this.lblWater.Name = "lblWater";
             this.lblWater.Size = new System.Drawing.Size(46, 13);
             this.lblWater.TabIndex = 2;
@@ -109,7 +127,7 @@ namespace BakersPercentages
             // 
             // txtEnterWaterPercent
             // 
-            this.txtEnterWaterPercent.Location = new System.Drawing.Point(159, 126);
+            this.txtEnterWaterPercent.Location = new System.Drawing.Point(150, 146);
             this.txtEnterWaterPercent.Name = "txtEnterWaterPercent";
             this.txtEnterWaterPercent.Size = new System.Drawing.Size(100, 20);
             this.txtEnterWaterPercent.TabIndex = 2;
@@ -119,7 +137,7 @@ namespace BakersPercentages
             // lblSalt
             // 
             this.lblSalt.AutoSize = true;
-            this.lblSalt.Location = new System.Drawing.Point(125, 165);
+            this.lblSalt.Location = new System.Drawing.Point(116, 185);
             this.lblSalt.Name = "lblSalt";
             this.lblSalt.Size = new System.Drawing.Size(35, 13);
             this.lblSalt.TabIndex = 4;
@@ -127,7 +145,7 @@ namespace BakersPercentages
             // 
             // txtEnterSaltPercent
             // 
-            this.txtEnterSaltPercent.Location = new System.Drawing.Point(159, 161);
+            this.txtEnterSaltPercent.Location = new System.Drawing.Point(150, 181);
             this.txtEnterSaltPercent.Name = "txtEnterSaltPercent";
             this.txtEnterSaltPercent.Size = new System.Drawing.Size(100, 20);
             this.txtEnterSaltPercent.TabIndex = 3;
@@ -136,7 +154,7 @@ namespace BakersPercentages
             // lblTeast
             // 
             this.lblTeast.AutoSize = true;
-            this.lblTeast.Location = new System.Drawing.Point(80, 203);
+            this.lblTeast.Location = new System.Drawing.Point(71, 223);
             this.lblTeast.Name = "lblTeast";
             this.lblTeast.Size = new System.Drawing.Size(80, 13);
             this.lblTeast.TabIndex = 6;
@@ -144,7 +162,7 @@ namespace BakersPercentages
             // 
             // txtEnterYeastPercent
             // 
-            this.txtEnterYeastPercent.Location = new System.Drawing.Point(159, 199);
+            this.txtEnterYeastPercent.Location = new System.Drawing.Point(150, 219);
             this.txtEnterYeastPercent.Name = "txtEnterYeastPercent";
             this.txtEnterYeastPercent.Size = new System.Drawing.Size(100, 20);
             this.txtEnterYeastPercent.TabIndex = 4;
@@ -153,7 +171,7 @@ namespace BakersPercentages
             // lblSourdoughStarter
             // 
             this.lblSourdoughStarter.AutoSize = true;
-            this.lblSourdoughStarter.Location = new System.Drawing.Point(37, 243);
+            this.lblSourdoughStarter.Location = new System.Drawing.Point(28, 263);
             this.lblSourdoughStarter.Name = "lblSourdoughStarter";
             this.lblSourdoughStarter.Size = new System.Drawing.Size(123, 13);
             this.lblSourdoughStarter.TabIndex = 8;
@@ -161,7 +179,7 @@ namespace BakersPercentages
             // 
             // txtEnterStarterPercent
             // 
-            this.txtEnterStarterPercent.Location = new System.Drawing.Point(159, 239);
+            this.txtEnterStarterPercent.Location = new System.Drawing.Point(150, 259);
             this.txtEnterStarterPercent.Name = "txtEnterStarterPercent";
             this.txtEnterStarterPercent.Size = new System.Drawing.Size(100, 20);
             this.txtEnterStarterPercent.TabIndex = 5;
@@ -170,7 +188,7 @@ namespace BakersPercentages
             // lblFatOil
             // 
             this.lblFatOil.AutoSize = true;
-            this.lblFatOil.Location = new System.Drawing.Point(115, 281);
+            this.lblFatOil.Location = new System.Drawing.Point(106, 301);
             this.lblFatOil.Name = "lblFatOil";
             this.lblFatOil.Size = new System.Drawing.Size(45, 13);
             this.lblFatOil.TabIndex = 10;
@@ -179,7 +197,7 @@ namespace BakersPercentages
             // 
             // txtEnterFatOilPercent
             // 
-            this.txtEnterFatOilPercent.Location = new System.Drawing.Point(159, 277);
+            this.txtEnterFatOilPercent.Location = new System.Drawing.Point(150, 297);
             this.txtEnterFatOilPercent.Name = "txtEnterFatOilPercent";
             this.txtEnterFatOilPercent.Size = new System.Drawing.Size(100, 20);
             this.txtEnterFatOilPercent.TabIndex = 6;
@@ -189,7 +207,7 @@ namespace BakersPercentages
             // 
             this.lblPercentRatios.AutoSize = true;
             this.lblPercentRatios.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPercentRatios.Location = new System.Drawing.Point(53, 61);
+            this.lblPercentRatios.Location = new System.Drawing.Point(44, 81);
             this.lblPercentRatios.Name = "lblPercentRatios";
             this.lblPercentRatios.Size = new System.Drawing.Size(206, 13);
             this.lblPercentRatios.TabIndex = 12;
@@ -198,7 +216,7 @@ namespace BakersPercentages
             // 
             // txtFlourInputBase
             // 
-            this.txtFlourInputBase.Location = new System.Drawing.Point(300, 90);
+            this.txtFlourInputBase.Location = new System.Drawing.Point(291, 110);
             this.txtFlourInputBase.Name = "txtFlourInputBase";
             this.txtFlourInputBase.Size = new System.Drawing.Size(100, 20);
             this.txtFlourInputBase.TabIndex = 1;
@@ -206,7 +224,7 @@ namespace BakersPercentages
             // 
             // txtWaterResultsQuantity
             // 
-            this.txtWaterResultsQuantity.Location = new System.Drawing.Point(300, 126);
+            this.txtWaterResultsQuantity.Location = new System.Drawing.Point(291, 146);
             this.txtWaterResultsQuantity.Name = "txtWaterResultsQuantity";
             this.txtWaterResultsQuantity.ReadOnly = true;
             this.txtWaterResultsQuantity.Size = new System.Drawing.Size(100, 20);
@@ -216,7 +234,7 @@ namespace BakersPercentages
             // 
             // txtSaltResultsQuantity
             // 
-            this.txtSaltResultsQuantity.Location = new System.Drawing.Point(300, 161);
+            this.txtSaltResultsQuantity.Location = new System.Drawing.Point(291, 181);
             this.txtSaltResultsQuantity.Name = "txtSaltResultsQuantity";
             this.txtSaltResultsQuantity.ReadOnly = true;
             this.txtSaltResultsQuantity.Size = new System.Drawing.Size(100, 20);
@@ -226,7 +244,7 @@ namespace BakersPercentages
             // 
             // txtYeastResultsQuantity
             // 
-            this.txtYeastResultsQuantity.Location = new System.Drawing.Point(300, 199);
+            this.txtYeastResultsQuantity.Location = new System.Drawing.Point(291, 219);
             this.txtYeastResultsQuantity.Name = "txtYeastResultsQuantity";
             this.txtYeastResultsQuantity.ReadOnly = true;
             this.txtYeastResultsQuantity.Size = new System.Drawing.Size(100, 20);
@@ -236,7 +254,7 @@ namespace BakersPercentages
             // 
             // txtStarterResultsQuantity
             // 
-            this.txtStarterResultsQuantity.Location = new System.Drawing.Point(300, 239);
+            this.txtStarterResultsQuantity.Location = new System.Drawing.Point(291, 259);
             this.txtStarterResultsQuantity.Name = "txtStarterResultsQuantity";
             this.txtStarterResultsQuantity.ReadOnly = true;
             this.txtStarterResultsQuantity.Size = new System.Drawing.Size(100, 20);
@@ -246,7 +264,7 @@ namespace BakersPercentages
             // 
             // txtFatOilResultsQuantity
             // 
-            this.txtFatOilResultsQuantity.Location = new System.Drawing.Point(300, 277);
+            this.txtFatOilResultsQuantity.Location = new System.Drawing.Point(291, 297);
             this.txtFatOilResultsQuantity.Name = "txtFatOilResultsQuantity";
             this.txtFatOilResultsQuantity.ReadOnly = true;
             this.txtFatOilResultsQuantity.Size = new System.Drawing.Size(100, 20);
@@ -258,7 +276,7 @@ namespace BakersPercentages
             // 
             this.lblQuantityResults.AutoSize = true;
             this.lblQuantityResults.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQuantityResults.Location = new System.Drawing.Point(300, 61);
+            this.lblQuantityResults.Location = new System.Drawing.Point(291, 81);
             this.lblQuantityResults.Name = "lblQuantityResults";
             this.lblQuantityResults.Size = new System.Drawing.Size(200, 13);
             this.lblQuantityResults.TabIndex = 19;
@@ -267,7 +285,7 @@ namespace BakersPercentages
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(283, 130);
+            this.label1.Location = new System.Drawing.Point(274, 150);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(13, 13);
             this.label1.TabIndex = 21;
@@ -276,7 +294,7 @@ namespace BakersPercentages
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(283, 165);
+            this.label2.Location = new System.Drawing.Point(274, 185);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(13, 13);
             this.label2.TabIndex = 22;
@@ -285,7 +303,7 @@ namespace BakersPercentages
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(283, 203);
+            this.label3.Location = new System.Drawing.Point(274, 223);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(13, 13);
             this.label3.TabIndex = 23;
@@ -294,7 +312,7 @@ namespace BakersPercentages
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(283, 243);
+            this.label4.Location = new System.Drawing.Point(274, 263);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(13, 13);
             this.label4.TabIndex = 24;
@@ -303,7 +321,7 @@ namespace BakersPercentages
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(283, 281);
+            this.label5.Location = new System.Drawing.Point(274, 301);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(13, 13);
             this.label5.TabIndex = 25;
@@ -312,7 +330,7 @@ namespace BakersPercentages
             // btnExit
             // 
             this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnExit.Location = new System.Drawing.Point(204, 326);
+            this.btnExit.Location = new System.Drawing.Point(195, 346);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 9;
@@ -322,7 +340,7 @@ namespace BakersPercentages
             // 
             // btnCalculate
             // 
-            this.btnCalculate.Location = new System.Drawing.Point(324, 326);
+            this.btnCalculate.Location = new System.Drawing.Point(315, 346);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(75, 23);
             this.btnCalculate.TabIndex = 7;
@@ -332,7 +350,7 @@ namespace BakersPercentages
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(84, 326);
+            this.btnClear.Location = new System.Drawing.Point(75, 346);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 23);
             this.btnClear.TabIndex = 8;
@@ -343,17 +361,17 @@ namespace BakersPercentages
             // lblFlourBase
             // 
             this.lblFlourBase.AutoSize = true;
-            this.lblFlourBase.Location = new System.Drawing.Point(401, 94);
+            this.lblFlourBase.Location = new System.Drawing.Point(392, 114);
             this.lblFlourBase.Name = "lblFlourBase";
-            this.lblFlourBase.Size = new System.Drawing.Size(241, 13);
+            this.lblFlourBase.Size = new System.Drawing.Size(283, 13);
             this.lblFlourBase.TabIndex = 0;
-            this.lblFlourBase.Text = "g *Flour amount to calculate remaining ingredients";
+            this.lblFlourBase.Text = "g *Flour amount in grams to calculate remaining ingredients";
             this.lblFlourBase.Click += new System.EventHandler(this.lblFlourBase_Click);
             // 
             // lblPerct
             // 
             this.lblPerct.AutoSize = true;
-            this.lblPerct.Location = new System.Drawing.Point(260, 94);
+            this.lblPerct.Location = new System.Drawing.Point(251, 114);
             this.lblPerct.Name = "lblPerct";
             this.lblPerct.Size = new System.Drawing.Size(15, 13);
             this.lblPerct.TabIndex = 30;
@@ -362,7 +380,7 @@ namespace BakersPercentages
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(260, 130);
+            this.label6.Location = new System.Drawing.Point(251, 150);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(15, 13);
             this.label6.TabIndex = 31;
@@ -371,7 +389,7 @@ namespace BakersPercentages
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(260, 165);
+            this.label7.Location = new System.Drawing.Point(251, 185);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(15, 13);
             this.label7.TabIndex = 32;
@@ -380,7 +398,7 @@ namespace BakersPercentages
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(260, 203);
+            this.label8.Location = new System.Drawing.Point(251, 223);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(15, 13);
             this.label8.TabIndex = 33;
@@ -389,7 +407,7 @@ namespace BakersPercentages
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(260, 243);
+            this.label9.Location = new System.Drawing.Point(251, 263);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(15, 13);
             this.label9.TabIndex = 34;
@@ -398,7 +416,7 @@ namespace BakersPercentages
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(260, 281);
+            this.label10.Location = new System.Drawing.Point(251, 301);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(15, 13);
             this.label10.TabIndex = 35;
@@ -407,7 +425,7 @@ namespace BakersPercentages
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(401, 130);
+            this.label11.Location = new System.Drawing.Point(392, 150);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(13, 13);
             this.label11.TabIndex = 36;
@@ -417,7 +435,7 @@ namespace BakersPercentages
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(401, 165);
+            this.label12.Location = new System.Drawing.Point(392, 185);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(13, 13);
             this.label12.TabIndex = 37;
@@ -426,7 +444,7 @@ namespace BakersPercentages
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(401, 203);
+            this.label13.Location = new System.Drawing.Point(392, 223);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(13, 13);
             this.label13.TabIndex = 38;
@@ -435,7 +453,7 @@ namespace BakersPercentages
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(401, 243);
+            this.label14.Location = new System.Drawing.Point(392, 263);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(13, 13);
             this.label14.TabIndex = 39;
@@ -444,7 +462,7 @@ namespace BakersPercentages
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(401, 281);
+            this.label15.Location = new System.Drawing.Point(392, 301);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(13, 13);
             this.label15.TabIndex = 40;
@@ -453,18 +471,19 @@ namespace BakersPercentages
             // lblDescription
             // 
             this.lblDescription.AutoSize = true;
-            this.lblDescription.Location = new System.Drawing.Point(432, 125);
+            this.lblDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDescription.Location = new System.Drawing.Point(690, 60);
             this.lblDescription.MaximumSize = new System.Drawing.Size(305, 0);
             this.lblDescription.MinimumSize = new System.Drawing.Size(305, 0);
             this.lblDescription.Name = "lblDescription";
-            this.lblDescription.Size = new System.Drawing.Size(305, 78);
+            this.lblDescription.Size = new System.Drawing.Size(305, 112);
             this.lblDescription.TabIndex = 41;
             this.lblDescription.Text = resources.GetString("lblDescription.Text");
             // 
             // lblEqual
             // 
             this.lblEqual.AutoSize = true;
-            this.lblEqual.Location = new System.Drawing.Point(283, 94);
+            this.lblEqual.Location = new System.Drawing.Point(274, 114);
             this.lblEqual.Name = "lblEqual";
             this.lblEqual.Size = new System.Drawing.Size(11, 13);
             this.lblEqual.TabIndex = 20;
@@ -473,47 +492,228 @@ namespace BakersPercentages
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(432, 216);
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(690, 231);
             this.label16.MaximumSize = new System.Drawing.Size(305, 0);
             this.label16.MinimumSize = new System.Drawing.Size(305, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(305, 91);
+            this.label16.Size = new System.Drawing.Size(305, 45);
             this.label16.TabIndex = 42;
-            this.label16.Text = resources.GetString("label16.Text");
+            this.label16.Text = "Assuming we need *500 grams of flour to make a loaf we calculate the weights of e" +
+    "ach of the additional ingredients like this: ";
             this.label16.Click += new System.EventHandler(this.label16_Click);
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(432, 320);
-            this.label17.MaximumSize = new System.Drawing.Size(305, 0);
-            this.label17.MinimumSize = new System.Drawing.Size(305, 0);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(305, 26);
-            this.label17.TabIndex = 43;
-            this.label17.Text = "So our resulting formula/recipe to make our pizza dough is 500g flour, 345.5g wat" +
-    "er, 11g of salt and 2.5g of yeast.";
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(22, 14);
+            this.label18.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(12, 32);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(410, 22);
+            this.label18.Size = new System.Drawing.Size(349, 22);
             this.label18.TabIndex = 100;
-            this.label18.Text = "Baker\'s Percent - Baker\'s Formula Converter";
+            this.label18.Text = "Baker\'s Percent - Formula Converter";
             // 
             // label19
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(31, 38);
+            this.label19.Location = new System.Drawing.Point(22, 58);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(388, 13);
+            this.label19.Size = new System.Drawing.Size(528, 13);
             this.label19.TabIndex = 101;
-            this.label19.Text = "* Flour, Water and Salt amounts are the minimum input required for any calculatio" +
-    "n";
+            this.label19.Text = "* Input of Flour, Water and Salt amounts are the minimum required for any calcula" +
+    "tion. Or select a formula below.";
+            // 
+            // rdoNapolitanoRecipe
+            // 
+            this.rdoNapolitanoRecipe.AutoSize = true;
+            this.rdoNapolitanoRecipe.Location = new System.Drawing.Point(435, 176);
+            this.rdoNapolitanoRecipe.Name = "rdoNapolitanoRecipe";
+            this.rdoNapolitanoRecipe.Size = new System.Drawing.Size(139, 17);
+            this.rdoNapolitanoRecipe.TabIndex = 102;
+            this.rdoNapolitanoRecipe.TabStop = true;
+            this.rdoNapolitanoRecipe.Text = "Napolitano Pizza Dough";
+            this.rdoNapolitanoRecipe.UseVisualStyleBackColor = true;
+            // 
+            // rdoPainaLAncienne
+            // 
+            this.rdoPainaLAncienne.AutoSize = true;
+            this.rdoPainaLAncienne.Location = new System.Drawing.Point(435, 199);
+            this.rdoPainaLAncienne.Name = "rdoPainaLAncienne";
+            this.rdoPainaLAncienne.Size = new System.Drawing.Size(109, 17);
+            this.rdoPainaLAncienne.TabIndex = 103;
+            this.rdoPainaLAncienne.TabStop = true;
+            this.rdoPainaLAncienne.Text = "Pain a\' l\'Ancienne";
+            this.rdoPainaLAncienne.UseVisualStyleBackColor = true;
+            // 
+            // rdoSourdoughBaguettes
+            // 
+            this.rdoSourdoughBaguettes.AutoSize = true;
+            this.rdoSourdoughBaguettes.Location = new System.Drawing.Point(435, 222);
+            this.rdoSourdoughBaguettes.Name = "rdoSourdoughBaguettes";
+            this.rdoSourdoughBaguettes.Size = new System.Drawing.Size(128, 17);
+            this.rdoSourdoughBaguettes.TabIndex = 104;
+            this.rdoSourdoughBaguettes.TabStop = true;
+            this.rdoSourdoughBaguettes.Text = "Sourdough Baguettes";
+            this.rdoSourdoughBaguettes.UseVisualStyleBackColor = true;
+            // 
+            // lblTitleSelectFormulas
+            // 
+            this.lblTitleSelectFormulas.AutoSize = true;
+            this.lblTitleSelectFormulas.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitleSelectFormulas.Location = new System.Drawing.Point(432, 146);
+            this.lblTitleSelectFormulas.Name = "lblTitleSelectFormulas";
+            this.lblTitleSelectFormulas.Size = new System.Drawing.Size(118, 17);
+            this.lblTitleSelectFormulas.TabIndex = 105;
+            this.lblTitleSelectFormulas.Text = "Select a Formula:";
+            // 
+            // lblTitleAboutFormulas
+            // 
+            this.lblTitleAboutFormulas.AutoSize = true;
+            this.lblTitleAboutFormulas.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitleAboutFormulas.Location = new System.Drawing.Point(690, 37);
+            this.lblTitleAboutFormulas.Name = "lblTitleAboutFormulas";
+            this.lblTitleAboutFormulas.Size = new System.Drawing.Size(156, 18);
+            this.lblTitleAboutFormulas.TabIndex = 106;
+            this.lblTitleAboutFormulas.Text = "About Baker Formulas";
+            // 
+            // lblHRdivider
+            // 
+            this.lblHRdivider.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblHRdivider.Location = new System.Drawing.Point(435, 167);
+            this.lblHRdivider.Name = "lblHRdivider";
+            this.lblHRdivider.Size = new System.Drawing.Size(135, 2);
+            this.lblHRdivider.TabIndex = 107;
+            this.lblHRdivider.Text = "\r\n";
+            // 
+            // label20
+            // 
+            this.label20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label20.Location = new System.Drawing.Point(435, 269);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(135, 2);
+            this.label20.TabIndex = 108;
+            this.label20.Text = "\r\n";
+            // 
+            // btnSelectFormula
+            // 
+            this.btnSelectFormula.Location = new System.Drawing.Point(435, 276);
+            this.btnSelectFormula.Name = "btnSelectFormula";
+            this.btnSelectFormula.Size = new System.Drawing.Size(135, 23);
+            this.btnSelectFormula.TabIndex = 109;
+            this.btnSelectFormula.Text = "Add Select Formula";
+            this.btnSelectFormula.UseVisualStyleBackColor = true;
+            this.btnSelectFormula.Click += new System.EventHandler(this.btnSelectFormula_Click);
+            // 
+            // rdoCiabatta
+            // 
+            this.rdoCiabatta.AutoSize = true;
+            this.rdoCiabatta.Location = new System.Drawing.Point(435, 245);
+            this.rdoCiabatta.Name = "rdoCiabatta";
+            this.rdoCiabatta.Size = new System.Drawing.Size(64, 17);
+            this.rdoCiabatta.TabIndex = 110;
+            this.rdoCiabatta.TabStop = true;
+            this.rdoCiabatta.Text = "Ciabatta";
+            this.rdoCiabatta.UseVisualStyleBackColor = true;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(690, 339);
+            this.label17.MaximumSize = new System.Drawing.Size(305, 0);
+            this.label17.MinimumSize = new System.Drawing.Size(305, 0);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(305, 30);
+            this.label17.TabIndex = 43;
+            this.label17.Text = "So our resulting formula/recipe to make our loaf is 500g flour, 345.5g water, 11g" +
+    " of salt and 2.5g of yeast.";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(690, 196);
+            this.label21.MaximumSize = new System.Drawing.Size(305, 0);
+            this.label21.MinimumSize = new System.Drawing.Size(305, 0);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(305, 30);
+            this.label21.TabIndex = 111;
+            this.label21.Text = "Say we have this formula: Flour(100%), Water(69.1%), Salt(2.2%), Yeast(0.5%).";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(690, 286);
+            this.label22.MaximumSize = new System.Drawing.Size(305, 0);
+            this.label22.MinimumSize = new System.Drawing.Size(305, 0);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(305, 13);
+            this.label22.TabIndex = 112;
+            this.label22.Text = "Water: 69.1% divided by 100 = 0.691 * 500 = 345.5g water";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(690, 302);
+            this.label23.MaximumSize = new System.Drawing.Size(305, 0);
+            this.label23.MinimumSize = new System.Drawing.Size(305, 0);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(305, 13);
+            this.label23.TabIndex = 113;
+            this.label23.Text = "Salt: 2.2% divided by 100 = 0.022 * 500 = 11.0g salt";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(690, 318);
+            this.label24.MaximumSize = new System.Drawing.Size(305, 0);
+            this.label24.MinimumSize = new System.Drawing.Size(305, 0);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(305, 13);
+            this.label24.TabIndex = 114;
+            this.label24.Text = "Yeast: 0.5 divided by 100 = 0.005 * 500 = 2.5g yeast";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(690, 179);
+            this.label25.MaximumSize = new System.Drawing.Size(305, 0);
+            this.label25.MinimumSize = new System.Drawing.Size(305, 0);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(305, 17);
+            this.label25.TabIndex = 115;
+            this.label25.Text = "Example:";
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.helpToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1011, 24);
+            this.menuStrip1.TabIndex = 116;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // helpToolStripMenuItem
+            // 
+            this.helpToolStripMenuItem.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aboutToolStripMenuItem});
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Text = "&Help";
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aboutToolStripMenuItem.Text = "&About...";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // frmBakersPercentages
             // 
@@ -521,7 +721,21 @@ namespace BakersPercentages
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnExit;
-            this.ClientSize = new System.Drawing.Size(764, 377);
+            this.ClientSize = new System.Drawing.Size(1011, 408);
+            this.Controls.Add(this.label25);
+            this.Controls.Add(this.label24);
+            this.Controls.Add(this.label23);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.rdoCiabatta);
+            this.Controls.Add(this.btnSelectFormula);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.lblHRdivider);
+            this.Controls.Add(this.lblTitleAboutFormulas);
+            this.Controls.Add(this.lblTitleSelectFormulas);
+            this.Controls.Add(this.rdoSourdoughBaguettes);
+            this.Controls.Add(this.rdoPainaLAncienne);
+            this.Controls.Add(this.rdoNapolitanoRecipe);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
@@ -568,10 +782,14 @@ namespace BakersPercentages
             this.Controls.Add(this.lblWater);
             this.Controls.Add(this.txtEnterFlour);
             this.Controls.Add(this.lblFlour);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmBakersPercentages";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bakers Percent -Bakers Formula";
             this.Load += new System.EventHandler(this.frmBakersPercentages_Load);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -622,9 +840,26 @@ namespace BakersPercentages
         private System.Windows.Forms.Label lblDescription;
         private System.Windows.Forms.Label lblEqual;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.RadioButton rdoNapolitanoRecipe;
+        private System.Windows.Forms.RadioButton rdoPainaLAncienne;
+        private System.Windows.Forms.RadioButton rdoSourdoughBaguettes;
+        private System.Windows.Forms.Label lblTitleSelectFormulas;
+        private System.Windows.Forms.Label lblTitleAboutFormulas;
+        private System.Windows.Forms.Label lblHRdivider;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Button btnSelectFormula;
+        private System.Windows.Forms.RadioButton rdoCiabatta;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
     }
 }
 

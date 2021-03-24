@@ -42,6 +42,12 @@ namespace BakersPercentages
             txtYeastResultsQuantity.Text = "0";
             txtStarterResultsQuantity.Text = "0";
             txtFatOilResultsQuantity.Text = "0";
+
+            rdoNapolitanoRecipe.Checked = false;
+            rdoPainaLAncienne.Checked = false;
+            rdoSourdoughBaguettes.Checked = false;
+            rdoCiabatta.Checked = false;
+
         }
 
         private void label6_Click(object sender, EventArgs e)
@@ -74,6 +80,10 @@ namespace BakersPercentages
 
         }
 
+        private void txtEnterWater_TextChanged(object sender, EventArgs e)
+        {
+
+        }
 
 
         private void btnCalculate_Click(object sender, EventArgs e)
@@ -161,17 +171,61 @@ namespace BakersPercentages
             txtStarterResultsQuantity.Text = "0";
             txtFatOilResultsQuantity.Text = "0";
 
+            rdoNapolitanoRecipe.Checked = false;
+            rdoPainaLAncienne.Checked = false;
+            rdoSourdoughBaguettes.Checked = false;
+            rdoCiabatta.Checked = false;
+
             txtFlourInputBase.Focus();
+        }
+
+        // populate converter with a selected dough formula
+        private void btnSelectFormula_Click(object sender, EventArgs e)
+        {
+            if (rdoNapolitanoRecipe.Checked)
+            {
+                // Napolitano pizza dough
+                txtEnterWaterPercent.Text = "69.1";
+                txtEnterSaltPercent.Text = "2.2";
+                txtEnterYeastPercent.Text = "0.54";
+            }
+
+            if (rdoPainaLAncienne.Checked)
+            {
+                txtEnterWaterPercent.Text = "79.6";
+                txtEnterSaltPercent.Text = "2.0";
+                txtEnterYeastPercent.Text = "0.7";
+            }
+
+            if(rdoSourdoughBaguettes.Checked)
+            {
+                txtEnterWaterPercent.Text = "73.0";
+                txtEnterSaltPercent.Text = "2.0";
+                txtEnterYeastPercent.Text = "2.0";
+                txtEnterStarterPercent.Text = "3.33";
+            }
+
+            if(rdoCiabatta.Checked)
+            {
+                txtEnterWaterPercent.Text = "76.0";
+                txtEnterSaltPercent.Text = "2.0";
+                txtEnterYeastPercent.Text = "1.2";
+            }
+
+        }
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string title = "Baker's Percent - Formula Converter";
+            string message1 = "Convert baker's percent formulas into gram based recipes.";
+            string message2 = "Created By adhamlin, inspired by Tok.";
+            string message3 = "Copyright © 2021 adhamlin";
+            MessageBox.Show(message1 + "\n" + message2 + "\n" + message3, title);
         }
 
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-
-        private void txtEnterWater_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }
